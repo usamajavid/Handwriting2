@@ -915,59 +915,59 @@ if uploaded_file is not None:
         # trait_1 = emotional stability | 1 = stable, 0 = not stable
         trait_1 = determine_trait_1(baseline_angle, slant_angle)
         if(trait_1 == 1):
-            trait1_comment="Emotional stability == stable"
+            trait1_comment="The Person is Emotionally Stable"
         else:
-            trait1_comment="Emotional stability == unstable"
+            trait1_comment="The Person is Emotionally Unstable"
         
 
         # trait_2 = mental energy or will power | 1 = high or average, 0 = low
         trait_2 = determine_trait_2(letter_size, pen_pressure)
         if(trait_2 == 1):
-            trait2_comment="Mental energy or will power == high or average"
+            trait2_comment="The Person has High/Average Mental Energy or Will power"
         else:
-            trait2_comment="Mental energy or will power == low"
+            trait2_comment="The Person has Low Mental Energy or Will power"
         
         # trait_3 = modesty | 1 = observed, 0 = not observed (not necessarily the opposite)
         trait_3 = determine_trait_3(top_margin, letter_size)
         if(trait_3 == 1):
-            trait3_comment="Modesty == Observed"
+            trait3_comment="The Person is Modest (To some extent)"
         else:
-            trait3_comment="Modesty == Not Observed (not necessarily the opposite)"
+            trait3_comment="The Person is Immodest (not necessarily the opposite)"
         # trait_4 = personal harmony and flexibility | 1 = harmonious, 0 = non harmonious
         trait_4 = determine_trait_4(line_spacing, word_spacing)
         if(trait_4 == 1):
-            trait4_comment="Personal harmony and flexibility == harmonious"
+            trait4_comment="The Person has a level of Personal Harmony and Flexibility"
         else:
-            trait4_comment="Personal harmony and flexibility == not harmonious"
+            trait4_comment="The Person doesn't have Personal Harmony and Flexibility(To some extent)"
         
         
         # trait_5 = lack of discipline | 1 = observed, 0 = not observed (not necessarily the opposite)
         trait_5 = determine_trait_5(top_margin, slant_angle)
         if(trait_5 == 1):
-            trait5_comment="Lack of discipline == observed"
+            trait5_comment="The person has a lack of discipline"
         else:
-            trait5_comment="Lack of discipline == not observed"
+            trait5_comment="The person is discipline"
         
         # trait_6 = poor concentration power | 1 = observed, 0 = not observed (not necessarily the opposite)
         trait_6 = determine_trait_6(letter_size, line_spacing)
         if(trait_6 == 1):
-            trait6_comment="Poor concentration power == observed"
+            trait6_comment="The person has poor concentration power(lack of focus)"
         else:
-            trait6_comment="Poor concentration power == not observed"
+            trait6_comment="The person has good power of concentration"
         # trait_7 = non communicativeness | 1 = observed, 0 = not observed (not necessarily the opposite)
         trait_7 = determine_trait_7(letter_size, word_spacing)
         if(trait_7 == 1):
-            trait7_comment="Non communicativeness == observed"
+            trait7_comment="The person is an introvert(private)"
         else:
-            trait7_comment="Non communicativeness == not observed"
+            trait7_comment="The person is an extrovert(to some extent)"
         
         
         # trait_8 = social isolation | 1 = observed, 0 = not observed (not necessarily the opposite)
         trait_8 = determine_trait_8(line_spacing, word_spacing)
         if(trait_8 == 1):
-            trait8_comment="Social isolation == observed"
+            trait8_comment="The person is Socially Isolated"
         else:
-            trait8_comment="Social isolation == not observed"
+            trait8_comment="The person is outgoing and socially interactive"
         
         print(trait_1)
         print(trait_2)
