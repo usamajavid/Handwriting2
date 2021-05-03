@@ -11,6 +11,7 @@ from PIL import Image
 
 
 st.title("Personality Predicition through Handwriting   \n")
+st.write("  ")
 st.markdown("Our project is based on getting handwriting of an individual and predicting main personality traits of the individual")
 BASELINE_ANGLE = 0.0
 TOP_MARGIN = 0.0
