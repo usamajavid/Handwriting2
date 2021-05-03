@@ -957,9 +957,9 @@ if uploaded_file is not None:
         # trait_7 = non communicativeness | 1 = observed, 0 = not observed (not necessarily the opposite)
         trait_7 = determine_trait_7(letter_size, word_spacing)
         if(trait_7 == 1):
-            trait7_comment="The person is an introvert(private)"
+            trait7_comment="The person is Non Communicativeness)"
         else:
-            trait7_comment="The person is an extrovert(to some extent)"
+            trait7_comment="The person is Non Communicativeness(to some extent)"
         
         
         # trait_8 = social isolation | 1 = observed, 0 = not observed (not necessarily the opposite)
